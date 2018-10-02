@@ -16,8 +16,8 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
     <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
     <script>(function(){var isIe=/(trident|msie)/i.test(navigator.userAgent);if(isIe&&document.getElementById&&window.addEventListener){window.addEventListener('hashchange',function(){var id=location.hash.substring(1),element;if(!(/^[A-z0-9_-]+$/.test(id))){return}element=document.getElementById(id);if(element){if(!(/^(?:a|select|input|button|textarea)$/i.test(element.tagName))){element.tabIndex=-1}element.focus()}},!1)}})()</script>
-  <link href="css/commons.css" rel="stylesheet"><link href="css/product.css" rel="stylesheet"></head>
-  <body class="page page_product"><a class="skip-link screen-reader-text sr-only" href="#main">Skip to content</a>
+  <link href="css/commons.css" rel="stylesheet"><link href="css/product-detail.css" rel="stylesheet"></head>
+  <body class="page page_product-detail"><a class="skip-link screen-reader-text sr-only" href="#main">Skip to content</a>
     <header class="fixed-top" role="banner">
       <div class="container">
         <nav class="navbar navbar-expand-lg"><a class="navbar-brand" href="homepage.html" title="Begin Project"><img src="images/logo.svg" alt="Begin Project"></a>
@@ -126,39 +126,46 @@
     <li class="breadcrumb-item active" aria-current="page">Data</li>
   </ol>
 </nav>
-      <article class="products__list">
-        <h1><a href="#" title="Thời trang nữ">Thời trang nữ</a></h1>
-            <article class="products__layout">
-              <h2 class="products__title"><a class="products__link" href="javascript:;" title="Thời trang nữ">10 Steps To Look Younger</a><span class="products__price">4.000.000 vnd</span><a class="products__addtocart" href="javascript:;" title="Add to cart">Add to cart</a></h2><a class="products__thumbnail" href="javascript:;" title="Lorem Ipsum is simply" data-src="images/products/demo.jpg">10 Steps To Look Younger</a>
-            </article>
-            <article class="products__layout">
-              <h2 class="products__title"><a class="products__link" href="javascript:;" title="Thời trang nữ">10 Steps To Look Younger</a><span class="products__price">4.000.000 vnd</span><a class="products__addtocart" href="javascript:;" title="Add to cart">Add to cart</a></h2><a class="products__thumbnail" href="javascript:;" title="Lorem Ipsum is simply" data-src="images/products/demo.jpg">10 Steps To Look Younger</a>
-            </article>
-            <article class="products__layout">
-              <h2 class="products__title"><a class="products__link" href="javascript:;" title="Thời trang nữ">10 Steps To Look Younger</a><span class="products__price">4.000.000 vnd</span><a class="products__addtocart" href="javascript:;" title="Add to cart">Add to cart</a></h2><a class="products__thumbnail" href="javascript:;" title="Lorem Ipsum is simply" data-src="images/products/demo.jpg">10 Steps To Look Younger</a>
-            </article>
-            <article class="products__layout">
-              <h2 class="products__title"><a class="products__link" href="javascript:;" title="Thời trang nữ">10 Steps To Look Younger</a><span class="products__price">4.000.000 vnd</span><a class="products__addtocart" href="javascript:;" title="Add to cart">Add to cart</a></h2><a class="products__thumbnail" href="javascript:;" title="Lorem Ipsum is simply" data-src="images/products/demo.jpg">10 Steps To Look Younger</a>
-            </article>
-            <article class="products__layout">
-              <h2 class="products__title"><a class="products__link" href="javascript:;" title="Thời trang nữ">10 Steps To Look Younger</a><span class="products__price">4.000.000 vnd</span><a class="products__addtocart" href="javascript:;" title="Add to cart">Add to cart</a></h2><a class="products__thumbnail" href="javascript:;" title="Lorem Ipsum is simply" data-src="images/products/demo.jpg">10 Steps To Look Younger</a>
-            </article>
-            <article class="products__layout">
-              <h2 class="products__title"><a class="products__link" href="javascript:;" title="Thời trang nữ">10 Steps To Look Younger</a><span class="products__price">4.000.000 vnd</span><a class="products__addtocart" href="javascript:;" title="Add to cart">Add to cart</a></h2><a class="products__thumbnail" href="javascript:;" title="Lorem Ipsum is simply" data-src="images/products/demo.jpg">10 Steps To Look Younger</a>
-            </article>
-            <article class="products__layout">
-              <h2 class="products__title"><a class="products__link" href="javascript:;" title="Thời trang nữ">10 Steps To Look Younger</a><span class="products__price">4.000.000 vnd</span><a class="products__addtocart" href="javascript:;" title="Add to cart">Add to cart</a></h2><a class="products__thumbnail" href="javascript:;" title="Lorem Ipsum is simply" data-src="images/products/demo.jpg">10 Steps To Look Younger</a>
-            </article>
-            <article class="products__layout">
-              <h2 class="products__title"><a class="products__link" href="javascript:;" title="Thời trang nữ">10 Steps To Look Younger</a><span class="products__price">4.000.000 vnd</span><a class="products__addtocart" href="javascript:;" title="Add to cart">Add to cart</a></h2><a class="products__thumbnail" href="javascript:;" title="Lorem Ipsum is simply" data-src="images/products/demo.jpg">10 Steps To Look Younger</a>
-            </article>
-        <ul class="pagination">
-          <li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span><span class="sr-only">Previous</span></a></li>
-          <li class="active"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#" aria-label="Next"><span aria-hidden="true">»</span><span class="sr-only">Next</span></a></li>
-        </ul>
+      <article class="product__detail">
+        <div class="product__left">
+          <h1 class="product__title">10 Steps To Look Younger</h1><span class="product__price">4.000.000 vnd</span>
+          <div class="product__filter">filter here</div><a class="product__addtocart" href="javascript:;" title="Add to cart">Add to cart</a>
+          <div class="product__description">
+            <p>‘With this ring, I thee wed’. The most beautiful words ever spoken. The words that bring a man and woman together in a bond of eternity.</p>
+            <p>This is done by slipping a ring on the bride’s and groom’s fingers by each other.</p>
+            <p>The wedding ring plays a most important role in bringing two hearts together in love for a lifetime.</p>
+          </div>
+          <ul class="list-unstyled product__social">
+            <li>Share:</li>
+            <li><a href="#"><i class="mdi mdi-facebook"></i></a></li>
+            <li><a href="#"><i class="mdi mdi-instagram"></i></a></li>
+            <li><a href="#"><i class="mdi mdi-youtube"></i></a></li>
+            <li><a href="#"><i class="mdi mdi-twitter"></i></a></li>
+          </ul>
+          <div class="product__relate">
+            <button class="arrow"><span>relate product</span></button>
+            <h2>More like this</h2>
+            <div class="relate__items">
+                  <div class="relate__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                  <div class="relate__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                  <div class="relate__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                  <div class="relate__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                  <div class="relate__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                  <div class="relate__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                  <div class="relate__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="product__right">
+          <div class="product__slide">
+                <div class="slide__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                <div class="slide__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                <div class="slide__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                <div class="slide__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                <div class="slide__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+                <div class="slide__item"><a href="#" title="10 Steps To Look Younger" data-src="images/products/demo.jpg">10 Steps To Look Younger</a></div>
+          </div>
+        </div>
       </article>
     </div>
 <footer class="footer" role="contentinfo">
@@ -219,5 +226,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="//cdn.jsdelivr.net/npm/velocity-animate@2.0/velocity.min.js"></script>
-  <script type="text/javascript" src="js/core/runtime.js"></script><script type="text/javascript" src="js/core/vendor.js"></script><script type="text/javascript" src="js/core/commons.js"></script><script type="text/javascript" src="js/pages/product.js"></script></body>
+  <script type="text/javascript" src="js/core/runtime.js"></script><script type="text/javascript" src="js/core/vendor.js"></script><script type="text/javascript" src="js/core/commons.js"></script><script type="text/javascript" src="js/pages/product-detail.js"></script></body>
 </html>
